@@ -1,7 +1,24 @@
 aid: stack
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stack.png
 name: Stack
-description: Stack is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Stack is a spatial web browser that organizes the web as cards on a canvas
+  rather than rows of tabs, built for keyboard-first, distraction-free browsing. Features
+  include Fly Mode for fast navigation, multiple user profiles, customizable visual
+  themes called realms, Chrome extension support, and privacy-focused browsing without
+  ads or trackers, with multiplayer collaboration planned. Stack is a consumer desktop
+  application and does not currently publish a public API, developer platform, or SDK.
+  Backed by 500 Global and community-funded via WeFunder.
 url: https://raw.githubusercontent.com/api-evangelist/stack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Browser
+- Web Browser
+- Productivity
+- Privacy
+- Consumer
+- Spatial Computing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,16 @@ maintainers:
 common:
 - type: Website
   url: https://stackbrowser.com
+- type: Blog
+  url: https://stackbrowser.com/blog
+- type: TermsOfService
+  url: https://stackbrowser.notion.site/Terms-Privacy-4c1dba326371411b81ca797290baab73
+- type: PrivacyPolicy
+  url: https://stackbrowser.notion.site/Terms-Privacy-4c1dba326371411b81ca797290baab73
+- type: DomainSecurity
+  url: security/stack-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  pass: local-v1
+  artifacts_added: 1
